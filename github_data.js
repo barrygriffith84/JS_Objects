@@ -4418,5 +4418,13 @@ const githubData = [
 // console.log(githubData[?].)
 //Added clarification
 
+//arrayName.map(x => x.objectVariable).indexOf('variableValue')
+//A function to help find the index value of an object array.
+//It uses the map function and the indexOf function.
+//github data is the name of the array.  Id is the name of the object variable you are searching for.  8030403992 is the value.
+console.log(githubData.map(x => x.id).indexOf('8030403992'))
+
 
 console.log(githubData[6]["payload"]["commits"][0]["message"])
+
+
